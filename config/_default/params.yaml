@@ -15,11 +15,11 @@ appearance:
 
 marketing:
   seo:
-    site_type: Project
+    site_type: 'ResearchOrganization'
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo notes theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    org_name: 'Campus-wide Computing Research Division, Information Technology Center, The University of Tokyo'
+    description: 'World Wide Web of Kenichiro Ito Office at CCR, ITC, The University of Tokyo. Main research topic includes but not limited to Internet of Things (IoT), Virtual Reality (VR), Augmented Reality (AR), Mixed Reality (MR), x Reality, Metaverse, Human-Computer Interaction (HCI), Human-Machine Interface (HMI), User Interface (UI), User Experience (UX), Systems Engineering (SE), System of Systems (SoS)'
+    twitter: 'ikenichiro'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -34,14 +34,14 @@ header:
     enable: false
     align: l
     show_logo: true
-    show_language: false
+    show_language: true
     show_day_night: true
     show_search: true
     highlight_active_link: true
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Kenichiro Ito. This work is mostly licensed under {license} except for published materials such as Journal Papers or Conference Papers which follows the license from the publisher.'
     license:
       enable: true
       allow_derivatives: false
@@ -51,8 +51,8 @@ footer:
 # Localization
 
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+  date_format: '2006-01-02'
+  time_format: '15:04:05 MST'
 
 # Site features
 
@@ -61,11 +61,11 @@ features:
     theme_light: github-light
     theme_dark: dracula
   math:
-    enable: false
+    enable: true
   privacy_pack:
-    enable: false
+    enable: true
   repository:
-    url: 'https://github.com/wowchemy/hugo-second-brain-theme'
+    url: 'https://github.com/ikenichiro/ito-ecc-website'
     content_dir: content
     branch: main
   comment:
@@ -82,6 +82,9 @@ features:
       category_id: ''
   search:
     provider: wowchemy
+    wowchemy:
+      min_length: 1
+      threshold: 0.3
     algolia:
       app_id: ''
       api_key: ''
